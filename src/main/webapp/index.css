@@ -1,0 +1,48 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.error{
+    color: orangered;
+}
+.form_container{
+    display: flex;
+    margin-top: 15%;
+    height: 250px;
+    padding: 5px;
+    border: 2px solid black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.div_class{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}
+.submit_button{
+    border: none;
+    padding: 10px 25px;
+    border-radius: 15px;
+    background: #e3583e;
+    box-shadow: 0 4px 0 red;
+    cursor : pointer;
+
+    &:hover{
+        transform: translateY(-2px);
+    }
+
+
+    &:active{
+        transform: translateY(2px);
+        box-shadow: none;
+    }
+}
+
